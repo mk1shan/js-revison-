@@ -1,0 +1,66 @@
+/* #countLabel{
+
+    display: block;
+    text-align:center;
+    font-size:10em;
+    font-family: Helvetica;
+}
+
+
+#btncontainer{
+
+    text-align:center;
+}
+
+.buttons{
+    padding:10px 20px;
+    font-size:1.5em;
+    color: white;
+    background-color: hsl(214, 100%,75%);
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color:hsl(214, 100%,56%)
+} */
+
+
+/* body{
+    font-family: verdana;
+    text-align:center;
+
+}
+
+#myButton{
+    font-size:3em;
+    padding:5px 25px;
+    border-radius:5px;
+
+}
+#label{
+    font-size: 3em;
+} */
+
+
+body{
+    font-family:vardana; 
+    font-size: 2em;
+    background-color:hsl(0 ,0%, 95%);
+
+}
+
+h1{
+    color: hsl(223,100%,64%);
+}
+
+form{
+    background-color: hsl(0,0%,100%);
+    text-align: center;
+    max-width:350px;
+    margin:auto;
+    padding:25px;
+    border-radius:10px;
+    box-shadow: 5px 5px 15px;
+}

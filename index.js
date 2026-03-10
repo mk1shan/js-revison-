@@ -408,12 +408,73 @@
 
 
 
+// function genaratePassword(length,includeLowercase,includeUppercase,includeNumbers,includeSymbols){
+
+
+//     const lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
+//     const uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+//     const numberChars = "0123456789";
+//     const symbolChars = "!@#$%^&*()_+-=";
+
+//     let allowedChars = "";
+//     let password= " ";
+
+
+//     allowedChars += includeLowercase ? lowercaseChars : "";
+//     allowedChars += includeUppercase ? uppercaseChars : "";
+//     allowedChars += includeNumbers ? numberChars : "";
+//     allowedChars += includeSymbols ? symbolChars : ""; 
 
 
 
+//     if(length<=0){
+//         return(`password lenght must be at least 1`);
+//     }
+//     if(allowedChars.length===0){
+//         return(`at least 1 set of  character needs to be selected`);
+//     }
 
-const passwordLength =10;
-const includeLowercase =true;
-const includeUppercase = true;
-const includeNumbers =true;
-const includeSymbols = true;
+//     for(let i=0; i<length;i++){
+//         const randomindex = Math.floor(Math.random()*allowedChars.length);
+//         password+= allowedChars[randomindex];
+//     }
+
+
+//      return password;
+
+
+// }
+
+
+
+// const passwordLength =12;
+// const includeLowercase =true;
+// const includeUppercase = true;
+// const includeNumbers =true;
+// const includeSymbols = true;
+
+// const password = genaratePassword(passwordLength,
+//                                 includeLowercase,
+//                                 includeUppercase,
+//                                 includeNumbers,
+//                                 includeSymbols);
+
+
+
+// console.log(`genarated password ${password}` );
+
+
+///callback
+
+
+// const numbers =[1,2,3,4,5];
+
+// const squares = numbers.map(square);
+// console.log(squares);
+
+// function square(element){
+//     return Math.pow(element,2)
+// }
+
+
+

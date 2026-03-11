@@ -477,4 +477,128 @@
 // }
 
 
+// const names = ['mudipa-kishan', "sandani-muthu", "sena-buudhi"];
+
+// const data = names.map(formdata);
+// console.log(data);
+
+
+// function formdata(element){
+//     const parts = element.split("-");
+//     return `${parts[1]}/${parts[0]}`;
+// }
+
+// //.filter()
+
+// let numbers = [1,2,3,45,6,8];
+
+// let evennumber = numbers.filter(isEven);
+
+// console.log(evennumber); 
+
+// function isEven(element){
+//     return element % 2 === 0;
+
+// }
+
+
+/////////////////////
+
+// const graphes = [74,23,45,76,89];
+
+
+
+
+// function getMax(accumulator,element){
+//     return 
+// }
+
+
+
+// const hello = function(){
+// console.log("hello")
+// }
+
+
+// hello();
+
+
+// setTimeout(function(){
+//    console.log("hello") 
+// },3000);
+
+
+
+// const numbers1 = [1,2,3,4,5];
+
+// const squares = numbers.map(function (element){
+//     return Math.pow(element, 2);
+// });
+
+// console.log(squares)
+
+//function exprssions
+// const cubes = numbers1.map(function(element){
+// return Math.sqrt(element,2)
+// })
+// console.log(cubes)
+
+
+// const hello = (name,age)=> {console.log(`hello1 ${name}`)
+//                         console.log(`you old ${age}` )
+// }
+// hello("mudipa",25);
+
+
+// const person1 = {
+//     firstName: "mudipa",
+//     lastName:"kishan",
+//     age: 25,
+//     isEmployed: true,
+
+//     sayHello: function(){
+//         console.log(`hi im  ${this.firstName}`);
+//     },
+//     eat:function (){console.log(`hi we ${this.lastName}`)
+// }}
+
+
+
+// const person2 ={
+//      firstName: "mudipa2",
+//     lastName:"kishan2",
+//     age: 35,
+//     isEmployed: true,
+//       sayHello: ()=> console.log("hi im  udipakishan "),
+
+//       eat:()=>console.log(`im eating bun2 ${this.lastName}`)
+   
+// }
+
+// person1.sayHello();
+// person2.eat();
+
+
+// function Car(make,model,year,color){
+//     this.make=make,
+//     this.model=model,
+//     this.year=year,
+//     this.color=color,
+//     this.drive= function(){
+//         console.log(`you drive ${this.make}`)
+//     }
+// } 
+
+
+
+// const car1 = new Car ("ford","mustang",2025,"red")
+// const car2= new Car("mks","bmw",2014,"blue")
+
+
+// car2.drive()
+
+
+
+
+
 

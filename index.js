@@ -599,6 +599,94 @@
 
 
 
+//classes
+
+// class Product {
+//     constructor(name,price)
+//     {this.name=name;
+//     this.price=price;}
+
+// displayProduct(){console.log(`product:${this.name}`)}
+
+// calculateTotal(saleTax){
+//     return this.price+ (this.price*sales)
+// }
+
+// }
+
+// const product = new Product("mudipa")
+// product.displayProduct()
 
 
 
+// class mathUtil{
+//     static PI =3.14159;
+
+//     static getDiameter(radius){
+//         return radius*2;
+//     }
+
+
+
+// }
+
+// console.log(mathUtil.getDiameter(19));
+
+// class User{
+//     static userCount = 0;
+
+//     constructor(username){
+//         this.username = username;
+//         User.userCount++;
+//     }
+//  static gteUserCount(){
+
+//     console.log(`there are ${User.userCount} users`)
+//  }
+//     sayHello(){
+//         console.log(`hello my username is ${this.username}`)
+//     }
+// }
+
+// const user1 = new User("mudipa");
+// const user2 = new User("mudipa2");
+// const user3 = new User("mudipa3");
+
+// user1.sayHello();
+// console.log(user2.username);
+// console.log(user3.username);
+
+// console.log(User.userCount);
+// console.log(User.gteUserCount())
+
+class Animal{
+    alive = true;
+
+    eat(){
+        console.log(`this ${this.name} is eating`);
+    }
+
+
+    sleep(){
+        console.log(`this ${this.name} is sleeping`);
+    }
+}
+
+class Rabbit extends Animal{
+    name = "rabbit";
+}
+
+class Fish extends Animal{
+    name = "fish";
+}
+
+class Hawk extends Animal {
+    name= "hawk";
+}
+
+const rabbit = new Rabbit();
+const fish  = new Fish();
+const hawk = new Hawk();
+
+console.log(rabbit.alive)
+rabbit.eat();

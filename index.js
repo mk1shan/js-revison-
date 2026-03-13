@@ -659,34 +659,128 @@
 // console.log(User.userCount);
 // console.log(User.gteUserCount())
 
-class Animal{
-    alive = true;
+// class Animal{
+//     alive = true;
 
-    eat(){
-        console.log(`this ${this.name} is eating`);
-    }
+//     eat(){
+//         console.log(`this ${this.name} is eating`);
+//     }
 
 
-    sleep(){
-        console.log(`this ${this.name} is sleeping`);
-    }
-}
+//     sleep(){
+//         console.log(`this ${this.name} is sleeping`);
+//     }
+// }
 
-class Rabbit extends Animal{
-    name = "rabbit";
-}
+// class Rabbit extends Animal{
+//     name = "rabbit";
+//     run(){
+//         console.log(`this ${this.name} is running`)
+//     }
+// }
 
-class Fish extends Animal{
-    name = "fish";
-}
+// class Fish extends Animal{
+//     name = "fish";
+//        swim(){
+//         console.log(`this ${this.name} is swimming`)
+//     }
+// }
 
-class Hawk extends Animal {
-    name= "hawk";
-}
+// class Hawk extends Animal {
+//     name= "hawk";
+// }
 
-const rabbit = new Rabbit();
-const fish  = new Fish();
-const hawk = new Hawk();
+// const rabbit = new Rabbit();
+// const fish  = new Fish();
+// const hawk = new Hawk();
 
-console.log(rabbit.alive)
-rabbit.eat();
+// console.log(rabbit.alive)
+// rabbit.run();
+
+
+// class Animal{
+// constructor(name,age){
+//   this.name= name;
+//     this.age = age;
+// }
+// }
+
+
+// class Rabbit extends Animal{
+// constructor(name,age,runSpeed){
+//     super(name,age);
+    
+//     this.runSpeed= runSpeed;
+// }
+
+// move(){
+//     console.log(`the ${this.name}`)
+// }
+// }
+
+
+// class Fish extends Animal{
+// constructor(name,age,swimSpeed){
+//     super(name,age);
+  
+//     this.runSpeed= swimSpeed;
+// }
+// }
+
+
+
+// class Hawk extends Animal{
+// constructor(name,age,soundSpeed){
+//     super(name,age);
+    
+//     this.runSpeed= soundSpeed;
+// }
+// }
+
+// const rabbit = new Rabbit("rabbit", 1,24);
+// const fish = new Fish("fish", 2,34);
+// const hawk= new Hawk("hawk", 4,29);
+
+
+// console.log(rabbit.name)
+
+
+// class Rectangle {
+//     constructor(width,height){
+
+
+// this.width = width;
+// this.height = height;
+
+
+//     }
+
+//     set width(newWidth){
+//         if (newWidth>0){
+//             this._width = newWidth;
+//         }
+//         else{
+//             console.error("woidyth must be positive")
+//         }
+//     }
+//       set height(newHeight){
+//         if (newHeight>0){
+//             this._width = newHeight;
+//         }
+//         else{
+//             console.error("height must be positive")
+//         }
+//     }
+
+
+//     get width(){
+//         return this._width;
+//     }
+//      get height(){
+//         return this._height;
+//     }
+// }
+
+// const rectangle = new Rectangle(13,12)
+
+// console.log(rectangle.width)

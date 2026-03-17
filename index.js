@@ -784,3 +784,100 @@
 // const rectangle = new Rectangle(13,12)
 
 // console.log(rectangle.width)
+
+// class Person{
+
+//     constructor(firstname,lastname,age){
+//         this.firstname=firstname;
+//         this.lastname=lastname;
+//         this.age=age;
+//     }
+
+//     set firstname(newFirstname){
+//         if(typeof newFirstname ==="string" && newFirstname.length >0){
+//             this._firstname= newFirstname;
+//         }
+//         else(
+//             console.error("enter valid name ")
+//         )
+//     }
+
+//     get firstname(){
+//         return this._firstname;
+//     }
+// }
+
+
+// const person = new Person("midopa",23,"abc");
+
+// console.log(person.firstname);
+
+
+// let a =1;
+// let b=2;
+// [a,b]=[b,a];
+
+
+// console.log(a);
+
+
+// const person1 ={
+//     firstName:"mudipa",
+//     secondNmae:"kishan",
+//     age : 24,
+//     job :"software"
+
+// }
+
+
+// const {firstName,secondNmae,age,job} = person1;
+
+// console.log(firstName)
+
+
+//nested object
+
+// const person ={
+//     fname:"muipa",
+//     age:20,
+//     address :{
+//         street:"147 jhajana",
+//         country:"sri lanka"
+//     }
+// }
+// console.log(person.address.street)
+
+
+
+// const fruits = [
+//   { name: "apple", color: "red", calories: 95 },
+//   { name: "orange", color: "orange", calories: 45 },
+//   { name: "banana", color: "yellow", calories: 105 },
+//   { name: "coconut", color: "white", calories: 159 },
+//   { name: "pineapple", color: "yellow", calories: 37 }
+// ];
+
+// // -------- reduce() --------
+// // const lkowcal = fruits.filter(fruits=>fruits.calories>=50);
+
+// // console.log(lkowcal)
+
+// const maxfruita = fruits.reduce((max,fruit)=>fruit.calories>max.calories? fruit:max)
+
+
+// let numbers = [1,10,2,9,3,8,4,0,12];
+
+
+// numbers.sort((a,b)=>(a-b))
+
+
+// console.log(numbers);
+
+
+
+const date = new Date();
+
+const year = date.getFullYear();
+const m = date.getMinutes();
+
+console.log(m);

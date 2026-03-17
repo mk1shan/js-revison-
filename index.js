@@ -875,9 +875,68 @@
 
 
 
-const date = new Date();
+// const date = new Date();
 
-const year = date.getFullYear();
-const m = date.getMinutes();
+// const year = date.getFullYear();
+// const m = date.getMinutes();
 
-console.log(m);
+// console.log(m);
+
+//oop/////////////////////////
+
+class Person{
+
+    constructor (name,age){
+
+
+        this.name=name;
+        this.age=age;
+
+    }
+
+getName =()=>{
+    return this.name
+};
+
+getAge =()=>{
+    return this.age
+}
+
+
+}
+
+
+
+class House{
+    constructor(address,price,residance){
+        this.address=address;
+        this.price=price;
+        this.residance=residance;
+    };
+
+
+
+    getAddress=()=>{
+        return this.address
+
+    };
+
+
+
+    getPrice=()=>{
+        return this.price
+    };
+
+    getresidance=()=>{
+        return this.residance
+    };
+
+}
+
+let kish = new Person("devid",21)
+let kish1 = new Person("devid",12)
+
+
+let house = new House("asshbd",12334,[kish,kish1]);
+
+console.log(house.getresidance())

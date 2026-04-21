@@ -884,59 +884,147 @@
 
 //oop/////////////////////////
 
-class Person{
+// class Person{
 
-    constructor (name,age){
+//     constructor (name,age){
 
 
-        this.name=name;
-        this.age=age;
+//         this.name=name;
+//         this.age=age;
 
+//     }
+
+// getName =()=>{
+//     return this.name
+// };
+
+// getAge =()=>{
+//     return this.age
+// }
+
+
+// }
+
+
+
+// class House{
+//     constructor(address,price,residance){
+//         this.address=address;
+//         this.price=price;
+//         this.residance=residance;
+//     };
+
+
+
+//     getAddress=()=>{
+//         return this.address
+
+//     };
+
+
+
+//     getPrice=()=>{
+//         return this.price
+//     };
+
+//     getresidance=()=>{
+//         return this.residance
+//     };
+
+// }
+
+
+
+// function outer(){
+//     let message = "hello";
+
+//     function inner(){
+//         console.log(message)
+//     }
+//     inner();
+// }
+
+// message = "good";
+
+// outer();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let kish = new Person("devid",21)
+// let kish1 = new Person("devid",12)
+
+
+// let house = new House("asshbd",12334,[kish,kish1]);
+
+// console.log(house.getresidance())
+
+
+//abstraction
+
+
+
+// //promises
+
+// function walkDog(callback){
+//     setTimeout(()=>{
+//         Console.log("YOU WALK THE DOG");
+        
+//     },1500)
+// }
+
+
+// function cleankitchen(callback){
+//     setTimeout(()=>{
+//         Console.log("YOU clean the kitchen");
+        
+//     },2500)
+// }
+
+
+// function cleanTrash(callback){
+//     setTimeout(()=>{
+//         Console.log("You clean trash");
+        
+//     },500)
+// }
+
+
+// walkDog(()=>{
+//     cleankitchen(()=>{
+//         cleanTrash(()=>{
+//             console.log("you finish all the ghorses")
+//         })
+//     });
+// })
+
+
+//reveser string
+
+function reverseString(str){
+    let reversed ="";
+
+    for (let i=str.length-1;i>=0;i--){
+        reversed +=str[i];
     }
 
-getName =()=>{
-    return this.name
-};
-
-getAge =()=>{
-    return this.age
+    return reversed;
 }
 
+console.log(reverseString("dasun"));
 
+function reverseString1(str){
+    return str.split("").reverse().join("");
 }
-
-
-
-class House{
-    constructor(address,price,residance){
-        this.address=address;
-        this.price=price;
-        this.residance=residance;
-    };
-
-
-
-    getAddress=()=>{
-        return this.address
-
-    };
-
-
-
-    getPrice=()=>{
-        return this.price
-    };
-
-    getresidance=()=>{
-        return this.residance
-    };
-
-}
-
-let kish = new Person("devid",21)
-let kish1 = new Person("devid",12)
-
-
-let house = new House("asshbd",12334,[kish,kish1]);
-
-console.log(house.getresidance())
+console.log(reverseString1("dasun3ed"));

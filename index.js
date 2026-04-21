@@ -1028,3 +1028,28 @@ function reverseString1(str){
     return str.split("").reverse().join("");
 }
 console.log(reverseString1("dasun3ed"));
+//////////////////
+
+
+//longest word
+
+function longestword(sentence){
+
+  const words = sentence.split(" ");
+  let longestword = "";
+
+
+  for (let word of words){
+
+if(word.length>longestword.length){
+    longestword=word;
+}
+
+return longestword;
+
+  }
+
+
+
+
+}

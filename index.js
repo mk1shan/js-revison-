@@ -13,7 +13,7 @@
 // document.getElementById('p1').textContent = fullname;
 
 
-//arithmetic operaqtions
+arithmetic operaqtions
 
 
 // let students =30;

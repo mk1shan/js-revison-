@@ -13,7 +13,7 @@
 // document.getElementById('p1').textContent = fullname;
 
 
-arithmetic operaqtions
+// arithmetic operaqtions
 
 
 // let students =30;
@@ -1057,16 +1057,14 @@ return longestword;
 
 //palindrome check
 
-function isPlaindrome(str){
-    const reversester = str.split("").reverse().join("");
+// function isPlaindrome(str){
+//     const reversester = str.split("").reverse().join("");
 
-   return str===reversester;
-}
-
-
-console.log(isPlaindrome("racecar"));
+//    return str===reversester;
+// }
 
 
+// console.log(isPlaindrome("racecar"));
 
 
 
@@ -1078,8 +1076,18 @@ console.log(isPlaindrome("racecar"));
 
 
 
-function addnumberds(num1,num2){
-    return num1+num2
-}
 
-console.log(`sum od number ${addnumbers(10,20)}`);
+
+// function addnumberds(num1,num2){
+//     return num1+num2
+// }
+
+// console.log(`sum od number ${addnumbers(10,20)}`);
+
+
+function  getSqrt(number){
+    return Math.sqrt(number)
+} 
+
+
+console.log(`sqrt is for 25= ${getSqrt(25)}`);

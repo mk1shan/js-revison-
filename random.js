@@ -1,8 +1,12 @@
 function getRandomNumber(){
 
-return Math.random();
+return Math.ceil(Math.random()*10)
 
 }
 
 
+for (let index=0;index<5;index++){
 console.log(getRandomNumber());
+}
+
+

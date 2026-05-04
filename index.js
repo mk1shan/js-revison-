@@ -1012,48 +1012,23 @@
 
 //reveser string
 
-function reverseString(str){
-    let reversed ="";
+// function reverseString(str){
+//     let reversed ="";
 
-    for (let i=str.length-1;i>=0;i--){
-        reversed +=str[i];
-    }
+//     for (let i=str.length-1;i>=0;i--){
+//         reversed +=str[i];
+//     }
 
-    return reversed;
-}
+//     return reversed;
+// }
 
-console.log(reverseString("dasun"));
+// console.log(reverseString("dasun"));
 
-function reverseString1(str){
-    return str.split("").reverse().join("");
-}
-console.log(reverseString1("dasun3ed"));
-//////////////////
-
-
-//longest word
-
-function longestword(sentence){
-
-  const words = sentence.split(" ");
-  let longestword = "";
-
-
-  for (let word of words){
-
-if(word.length>longestword.length){
-    longestword=word;
-}
-
-return longestword;
-
-  }
-
-
-
-
-}
-
+// function reverseString1(str){
+//     return str.split("").reverse().join("");
+// }
+// console.log(reverseString1("dasun3ed"));
+// //////////////////
 
 //palindrome check
 
@@ -1085,9 +1060,27 @@ return longestword;
 // console.log(`sum od number ${addnumbers(10,20)}`);
 
 
-function  getSqrt(number){
-    return Math.sqrt(number)
-} 
+// function  getSqrt(number){
+//     return Math.sqrt(number)
+// } 
 
 
-console.log(`sqrt is for 25= ${getSqrt(25)}`);
+// console.log(`sqrt is for 25= ${getSqrt(25)}`);
+
+
+let a=10 ,b=12
+console.log(`before swap a value is ${a} and B is ${b}`);
+
+// let c=a;
+// a=b;
+// b=c;
+
+// console.log(`after swap a value is ${a} and B is ${b}`);
+
+
+
+//destrucring
+
+[a, b] = [b,a]
+
+console.log(`after swap a value is ${a} and B is ${b}`);

@@ -1,19 +1,29 @@
-function reverse(str){
+// function reverse(str){
 
-    let reversed = '' 
+//     let reversed = '' 
 
-    // for (let i=0; i < str.length; i++){
+//     // for (let i=0; i < str.length; i++){
         
-    //     reversed = str[i] + reversed
-    // }
+//     //     reversed = str[i] + reversed
+//     // }
 
-    for (let char of str){
-        reversed = char+ reversed
-    }
+//     // for (let char of str){
+//     //     reversed = char+ reversed
+//     // }
 
 
-    return reversed 
+//     // return reversed 
 
+// }
+
+
+function reverse(str){
+    const strarray = str.split('');
+
+    strarray.reverse()
+
+    return strarray.join('')
 }
+
 
 console.log(reverse('mudipa kishan'))

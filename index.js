@@ -1057,15 +1057,15 @@
 //     return num1+num2
 // }
 
-// console.log(`sum od number ${addnumbers(10,20)}`);
+console.log(`sum od number ${addnumbers(10,20)}`);
 
 
-// function  getSqrt(number){
-//     return Math.sqrt(number)
-// } 
+function  getSqrt(number){
+    return Math.sqrt(number)
+} 
 
 
-// console.log(`sqrt is for 25= ${getSqrt(25)}`);
+console.log(`sqrt is for 25= ${getSqrt(25)}`);
 
 
 let a=10 ,b=12
